@@ -3,3 +3,11 @@
     background-color: antiquewhite;
     color: blue;
 }
+li{
+    display: inline-block;
+    background-color: rgb(255, 127, 223);
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
