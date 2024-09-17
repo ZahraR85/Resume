@@ -126,14 +126,22 @@ a:visited {
 .main li {
   list-style: none;
   margin: 5px 0;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
 }
 
-.main h3 {
+.main h3 , h4 {
   color: rgb(38, 128, 74);
 }
-
+.Experience{
+  display: flex;
+}
+.one{
+ flex: 1;
+}
+.two{
+  flex: 4;
+}
 .others li {
   list-style-type: square;
   margin: 5px 0;
