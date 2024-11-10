@@ -3,47 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
   <title>Zahra Reihani CV</title>
-  <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-  <div class="container">
+  <header class="p-10">
+  <div class="grid grid-cols-5 grid-rows-1 ">
     <!-- Left Column -->
-    <div class="left-column">
-      <h1>Zahra Reihani</h1>
-      <h2>Frontend Developer</h2>
-      <section class="contact-info">
-        <p><strong>Phone:</strong> (+49) 15758301101</p>
-        <p><strong>Email:</strong> zahra.reihani85@gmail.com</p>
-        <p><strong>Location:</strong> 63456 Hanau, Germany</p>
-        <p><a href="https://github.com/ZahraR85">GitHub</a> | <a href="https://linkedin.com/in/zahra-reihani85/">LinkedIn</a></p>
-      </section>
-
-      <section class="about">
-        <h3>About Me</h3>
-        <p>Experienced software developer with expertise in .Net, Python, and frontend technologies...</p>
-      </section>
-
-      <section class="skills">
-        <h3>Technical Skills</h3>
-        <ul>
-          <li><strong>Programming Languages:</strong> VB.NET, C#.NET, Python</li>
-          <li><strong>Frontend:</strong> HTML5, CSS3, Bootstrap, Tailwind, JavaScript, React</li>
-          <li><strong>Backend:</strong> Node.js, ASP.NET</li>
-          <li><strong>Database:</strong> SQL Server, NoSQL, MongoDB</li>
+    <div class="col-span-2 row-start-1 bg-pink-100">
+      <section class="">
+        <img class="w-80% h-80%" src="image/mypic.jpg" alt="Zahra.Reihani">
+        <h3 class="text-4xl font-bold mt-10 ml-10">Contact</h3>
+        <p class="text-2xl mt-5"><i class="fa-solid fa-phone p-4" style="font-size:36px"></i>(+49) 15758301101</p>
+        <!--<strong>Phone:</strong> -->
+        <p class="text-2xl"><i class="fa-solid fa-envelope p-4" style="font-size:36px"></i>zahra.reihani85@gmail.com</p>
+        <p class="text-2xl"><i class="fa-solid fa-location-dot p-4" style="font-size:36px"></i>63456 Hanau, Germany</p>
+        <i class="fa-brands fa-github p-4" style="font-size: 36px"></i><a class="text-2xl text-blue-500 underline hover:decoration-2" href="https://github.com/ZahraR85">GitHub </a> 
+        <i class="fa-brands fa-linkedin p-4 ml-5" style="font-size: 36px"></i><a class="text-2xl text-blue-500 underline hover:decoration-2" href="https://linkedin.com/in/zahra-reihani85/">LinkedIn</a>
+        <h3 class="text-4xl font-bold mt-10 ml-10"><i class="fa-sharp fa-solid fa-gear p-4" style="font-size:36px"></i>Technical Skills</h3>
+        <ul class="ml-10">
+          <li class="text-2xl p-4"><strong>Frontend:</strong> HTML5, CSS3, Bootstrap, Tailwind, JavaScript, React</li>
+          <li class="text-2xl p-4"><strong>Backend:</strong> Node.js, ASP.NET</li>
+          <li class="text-2xl p-4"><strong>Programming Languages:</strong> VB.NET, C#.NET, Python</li>
+          <li class="text-2xl p-4"><strong>Database:</strong> SQL Server, NoSQL, MongoDB</li>
+          <li class="text-2xl p-4"><strong>Version Control:</strong> Git, GitHub</li>
+          <li class="text-2xl p-4"><strong>SEO</strong></li>
+        </ul>
+        <h3 class="text-4xl font-bold mt-10 ml-10"><i class="fa-sharp fa-solid fa-gear p-4" style="font-size:36px"></i>Soft Skills</h3>
+        <ul class="ml-10">
+          <li class="text-2xl p-4">Helpfulness</li>
+          <li class="text-2xl p-4">Flexibility</li>
+          <li class="text-2xl p-4">Problem Solving </li>
+          <li class="text-2xl p-4">Work Ethic </li>
+          <li class="text-2xl p-4">Punctuality</li>
+          <li class="text-2xl p-4">Self-Motivation</li>
+        </ul>
+        <h3 class="text-4xl font-bold mt-10 ml-10"><i class="fa-sharp fa-solid fa-gear p-4" style="font-size:36px"></i>Language </h3>
+        <ul class="ml-10">
+          <li class="text-2xl p-4">English: B2</li>
+          <li class="text-2xl p-4">Deutsch: B2</li>
+          <li class="text-2xl p-4">Persian: Mother Tongue </li>
         </ul>
       </section>
     </div>
-
-    <!-- Right Column -->
-    <div class="right-column">
-      <section class="education">
-        <h3>Education</h3>
-        <p><strong>Computer Science (M.Sc.),</strong> TU Kaiserslautern University (2020 - 2022)</p>
-        <p><strong>Computer Software Engineering (B.Sc.),</strong> Islamic Azad University, Iran (2004 - 2009)</p>
+    <div class="col-span-3 row-start-1 p-10 ml-10">
+        <h1 class="text-6xl font-bold p-6">Zahra Reihani</h1>
+        <h2 class="text-4xl p-10">Full-Satck Developer</h2>
+      <section class="p-10">
+        <h3 class="text-4xl font-bold"><i class="fa fa-mortar-board" style="font-size:36px"></i>About Me</h3>
+        <p class="text-2xl mt-5 p-5">Experienced software developer with expertise in .Net,
+          Python, and frontend technologies like JavaScript and React, emphasizing flexibility
+          and responsibility in project delivery. Using Git and GitHub
+          for version control and effective teamwork through
+          branching and merging. Committed to fostering a
+          respectful and supportive work environment.
+        </p>
       </section>
-
-      <section class="experience">
+    </div>
+  </div>
+  </header>
+<main>
+  <div class="grid grid-cols-5 grid-rows-1">
+    <section class="col-span-2 row-start-1 bg-pink-100">
+     
+    </section>
+    <section class="col-span-3 row-start-1">
+      <h3 class="text-4xl">Education</h3>
+      <p><strong>Computer Science (M.Sc.),</strong> TU Kaiserslautern University (2020 - 2022)</p>
+      <p><strong>Computer Software Engineering (B.Sc.),</strong> Islamic Azad University, Iran (2004 - 2009)</p>
         <h3>Experience</h3>
         <div class="job">
           <p><strong>Software Developer,</strong> BMZ Germany GmbH (Feb 2023 - Jul 2024)</p>
@@ -52,13 +80,12 @@
           </ul>
         </div>
         <!-- Add other job entries similarly -->
-      </section>
+    </section>
 
-      <section class="languages">
-        <h3>Languages</h3>
-        <p>English (B2), Deutsch (B2), Persian (Mother Tongue)</p>
-      </section>
-    </div>
-  </div>
+</main>
+      
+
+    <!-- Right Column -->
+
 </body>
 </html>
