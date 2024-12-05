@@ -1,6 +1,6 @@
 <h2>👋 About Me:</h2>
 <p>
-  I am an experienced IT professional in computer engineering. <br>
+  I am an experienced softwrare Developer. <br>
   My expertise includes React, JavaScript, CSS3, tailwindcss, Bootstrap and HTML5 in Frontend. <br>
   in Backend side I can work with Node.js, SQl Server, MongoDB, Vb.net, C#.net, python,...
 </p>
@@ -32,5 +32,5 @@
 
 <h2>📊 GitHub Stats:</h2>
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zahrareihani&layout=compact&theme=radical" alt="Most Used Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZahraR85&layout=compact&theme=radical" alt="Most Used Languages"/>
 </p>
